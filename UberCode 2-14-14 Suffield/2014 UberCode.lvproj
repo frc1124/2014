@@ -17,7 +17,7 @@
 	<Item Name="RT CompactRIO Target" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">RT CompactRIO Target</Property>
 		<Property Name="alias.value" Type="Str">10.11.24.2</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;</Property>
+		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;DeviceCode,75C7;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">75C7</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -30,6 +30,7 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -151,6 +152,7 @@ DirectoryIndex index.htm
 		<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 		<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
+		<Item Name="piston manipulation test.vi" Type="VI" URL="../piston manipulation test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
