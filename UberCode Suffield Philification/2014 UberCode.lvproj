@@ -136,9 +136,6 @@ DirectoryIndex index.htm
 		<Item Name="pickup arm" Type="Folder" URL="../pickup arm">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="lock" Type="Folder" URL="../lock">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="belts" Type="Folder" URL="../belts">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -146,11 +143,11 @@ DirectoryIndex index.htm
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
 		<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 		<Item Name="main_ctrl.vi" Type="VI" URL="../main_ctrl.vi"/>
 		<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 		<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
-		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
