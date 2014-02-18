@@ -1,0 +1,72 @@
+Actions:
+	shoot
+		latch.forward();
+		end();
+	cock
+		shooterPistons.forward();
+		when ShootPistonE() == true;
+		latch.close()
+		shooterPistons.reverse()
+	pickup
+		I don't really know the actions for this.
+	load
+		almost the same as pickup but the belts run until the ball is sensed  by Hold Sensor
+	pass
+		run belts in reverse
+	drive
+		run drive motors forwards or backwards
+	manual arm down
+		arm.set(0);
+
+Controlled Components:
+	Belt
+	Arm
+	Shooter Pistons
+	Latch
+	Drivetrain
+	Shifter
+
+Sensors:
+	Hold Sensor
+	Arm Encoder
+	Drive Encoder
+	Shoot Piston E
+	Shoot Piston R
+	Camera
+
+Systems:
+	Drive
+		Actions:
+			drive
+		Controlled Components:
+			Drivetrain
+		Sensors:
+			Drive Encoder
+			//Camera
+	Pickup
+		Actions:
+			pickup
+			load
+			pass
+			manual arm down
+		Controlled Components:
+			Arm
+			Belt
+		Sensors:
+			Arm Encoder
+			Hold Sensor
+
+	Pneumatics
+		Actions:
+			shoot
+			cock
+			shift high
+			shift low
+		Controlled Components:
+			Shooter Pistons
+			Latch
+			Shifter
+		Sensors:
+			Shoot Piston E
+			Shoot Piston R
+
