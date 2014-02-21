@@ -151,6 +151,7 @@ DirectoryIndex index.htm
 		<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 		<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
+		<Item Name="Shooter Solenoid Refnums fg.vi" Type="VI" URL="../../UberCode Suffield Philification/functional globals/Shooter Solenoid Refnums fg.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
