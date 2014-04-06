@@ -20,6 +20,7 @@
 			<Item Name="Initialize Camera and CheckList.vi" Type="VI" URL="../Initialize Camera and CheckList.vi"/>
 			<Item Name="Open Playback Panel.vi" Type="VI" URL="../Open Playback Panel.vi"/>
 			<Item Name="Build Simple Skeleton Data.vi" Type="VI" URL="../Build Simple Skeleton Data.vi"/>
+			<Item Name="loop timer.vi" Type="VI" URL="../loop timer.vi"/>
 		</Item>
 		<Item Name="Type Defs" Type="Folder">
 			<Item Name="custom dash data.ctl" Type="VI" URL="../custom dash data.ctl"/>
@@ -30,6 +31,8 @@
 			<Item Name="dash dio.ctl" Type="VI" URL="../dash dio.ctl"/>
 			<Item Name="dashboard safety status data.ctl" Type="VI" URL="../dashboard safety status data.ctl"/>
 			<Item Name="misc dash data.ctl" Type="VI" URL="../misc dash data.ctl"/>
+			<Item Name="test data.ctl" Type="VI" URL="../test data.ctl"/>
+			<Item Name="test controls.ctl" Type="VI" URL="../test controls.ctl"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -189,6 +192,9 @@
 				<Item Name="NT Read Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Numeric Array.vi"/>
 				<Item Name="NT Read String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read String.vi"/>
 				<Item Name="NT Read Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Number.vi"/>
+				<Item Name="NT Write String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write String.vi"/>
+				<Item Name="NT Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Boolean.vi"/>
+				<Item Name="NT Read Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Boolean Array.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
