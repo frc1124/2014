@@ -33,6 +33,7 @@
 			<Item Name="misc dash data.ctl" Type="VI" URL="../misc dash data.ctl"/>
 			<Item Name="test data.ctl" Type="VI" URL="../test data.ctl"/>
 			<Item Name="test controls.ctl" Type="VI" URL="../test controls.ctl"/>
+			<Item Name="drive safety.ctl" Type="VI" URL="../drive safety.ctl"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -219,7 +220,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F12754D6-B5E0-496F-B50C-3EDB6F368199}</Property>
-				<Property Name="Bld_version.build" Type="Int">28</Property>
+				<Property Name="Bld_version.build" Type="Int">35</Property>
 				<Property Name="Bld_version.major" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/FRC Dashboard Project/NI_AB_PROJECTNAME/Dashboard.exe</Property>
