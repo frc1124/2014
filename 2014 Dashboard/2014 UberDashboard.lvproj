@@ -196,6 +196,7 @@
 				<Item Name="NT Write String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write String.vi"/>
 				<Item Name="NT Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Boolean.vi"/>
 				<Item Name="NT Read Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Boolean Array.vi"/>
+				<Item Name="NT Write Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Boolean Array.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -220,7 +221,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F12754D6-B5E0-496F-B50C-3EDB6F368199}</Property>
-				<Property Name="Bld_version.build" Type="Int">35</Property>
+				<Property Name="Bld_version.build" Type="Int">37</Property>
 				<Property Name="Bld_version.major" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/FRC Dashboard Project/NI_AB_PROJECTNAME/Dashboard.exe</Property>
@@ -229,7 +230,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/FRC Dashboard Project/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/App EXE.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{63C6CEDE-2272-4BA2-9585-8B215C17B70E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8B4F2607-BC15-4535-B527-6F2CFBCA0262}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dashboard Main.vi</Property>
@@ -239,6 +240,44 @@
 				<Property Name="TgtF_fileDescription" Type="Str">2014 UberDashboard</Property>
 				<Property Name="TgtF_internalName" Type="Str">2014 UberDashboard</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{AEE2EF3D-7087-47D6-AEAE-9F87F896ED5E}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Dashboard.exe</Property>
+			</Item>
+			<Item Name="Copy of 2014 UberDashboard" Type="EXE">
+				<Property Name="AB_Class_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2013/vi.lib/AppBuilder/AB_Classes/EXE/AB_EXE.lvclass</Property>
+				<Property Name="AB_Temp_Project_Path" Type="Path">/C/Users/Michael/Documents/Uberbots/2014/2014/2014 Dashboard/2014 UberDashboard.lvproj</Property>
+				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2013/vi.lib/AppBuilder/AB_Classes/Build/UI/AB_UI_Frmwk_Build.lvclass</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{FD789AC6-F94E-427F-BD15-E92FD49FFDE4}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{8C927EF0-0D64-4FBA-B038-7A421DE6B92B}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{9AD96C64-9A49-4D9E-9CE5-1BD8FDC8FFC3}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Build Dashboard Main.vi into an EXE that will respond to the driver station and display robot information on a PC.</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Copy of 2014 UberDashboard</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/FRC Dashboard Project/Copy of 2014 UberDashboard</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{BBE7A166-98CE-4480-AB21-3F9B0B860160}</Property>
+				<Property Name="Bld_version.build" Type="Int">39</Property>
+				<Property Name="Bld_version.major" Type="Int">5</Property>
+				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/FRC Dashboard Project/Copy of 2014 UberDashboard/Dashboard.exe</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/FRC Dashboard Project/Copy of 2014 UberDashboard/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/App EXE.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8B4F2607-BC15-4535-B527-6F2CFBCA0262}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dashboard Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">2014 UberDashboard</Property>
+				<Property Name="TgtF_internalName" Type="Str">2014 UberDashboard</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{969F06F8-344D-4C53-98EF-BB6E1ADDD247}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Dashboard.exe</Property>
 			</Item>
 		</Item>
