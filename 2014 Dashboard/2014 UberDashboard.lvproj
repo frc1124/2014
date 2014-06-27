@@ -243,9 +243,6 @@
 				<Property Name="TgtF_targetfileName" Type="Str">Dashboard.exe</Property>
 			</Item>
 			<Item Name="Copy of 2014 UberDashboard" Type="EXE">
-				<Property Name="AB_Class_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2013/vi.lib/AppBuilder/AB_Classes/EXE/AB_EXE.lvclass</Property>
-				<Property Name="AB_Temp_Project_Path" Type="Path">/C/Users/Michael/Documents/Uberbots/2014/2014/2014 Dashboard/2014 UberDashboard.lvproj</Property>
-				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2013/vi.lib/AppBuilder/AB_Classes/Build/UI/AB_UI_Frmwk_Build.lvclass</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{1649C900-023B-4B9C-B4A1-473677C3349D}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{0992D532-CFD8-403F-9A25-9305477A126F}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
@@ -259,7 +256,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1682DC81-405B-4D2B-9B33-199DE992BA9B}</Property>
-				<Property Name="Bld_version.build" Type="Int">37</Property>
+				<Property Name="Bld_version.build" Type="Int">39</Property>
 				<Property Name="Bld_version.major" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/FRC Dashboard Project/Copy of 2014 UberDashboard/Dashboard.exe</Property>
